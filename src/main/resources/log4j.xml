@@ -10,8 +10,16 @@
 		</layout>
 	</appender>
 
-	<logger name="org.eclipse.jetty.servlets">
+	<logger name="org.eclipse.jetty">
 		<level value="debug" />
+	</logger>
+
+	<logger name="org.eclipse.jetty.servlets.PushCacheFilter">
+		<level value="trace" />
+	</logger>
+
+	<logger name="org.eclipse.jetty.http2">
+		<level value="trace" />
 	</logger>
 
 	<logger name="org.springframework.web">
